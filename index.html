@@ -1,6 +1,21 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
   <head>
+<!-- OpenAI Ads Pixel (ChatGPT Ads) -->
+<script>
+(function(w,d,s,u){if(w.oaiq)return;var q=function(){q.q.push(arguments)};q.q=[];w.oaiq=q;var j=d.createElement(s);j.async=true;j.src=u;var f=d.getElementsByTagName(s)[0];f.parentNode.insertBefore(j,f);})(window,document,"script","https://bzrcdn.openai.com/sdk/oaiq.min.js");
+oaiq("init",{pixelId:"GY3kdoecgdSSRGWXTfhztv"});
+document.addEventListener("click",function(e){
+  var a=e.target&&e.target.closest?e.target.closest("a[href]"):null;if(!a)return;
+  var h=a.getAttribute("href")||"";
+  if(/wa\.me|api\.whatsapp\.com|whatsapp:\/\//i.test(h)){
+    oaiq("measure","custom",{type:"custom"},{custom_event_name:"whatsapp_click"});
+  }else if(/shop\.velorianaturals\.com/i.test(h)){
+    oaiq("measure","custom",{type:"custom"},{custom_event_name:"shop_click"});
+  }
+},true);
+</script>
+<!-- /OpenAI Ads Pixel -->
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-4GDWHK53B9"></script>
 <script>
